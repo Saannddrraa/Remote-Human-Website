@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+*:focus {
+    outline: none;
+}
+
+.section-users {
+    background-color: $color-grey-light-1;
+}
+
+
+.our-users {
+    margin: auto;
+}
+
+ul li {
+    list-style: none;
+}
+
+@media (max-width: 768px) {
+    .header {
+        height: 50vh;
+    }
+
+    .section-padding {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}

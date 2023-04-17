@@ -1,0 +1,29 @@
+.section-news {
+
+    &__blog-date {
+        margin: auto;
+        padding: 30px;
+    }
+
+    &__btn {
+        display: inline-block;
+        background-color: $color-blue;
+        color: $color-white;
+        padding: 15px;
+        border-radius: 25px;
+        text-decoration: none;
+        margin-top: 0px;
+
+        &:hover {
+            color: $color-grey-light-1;
+            background-color: $color-grey-dark-2;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-shop {
+    position: absolute;
+    top: 60%;
+    right: 5%;
+}

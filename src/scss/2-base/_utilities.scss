@@ -1,0 +1,68 @@
+.section-padding {
+    padding: 20px 0 20px;
+    @include breakpoint (phone) {
+        padding: 10px 5px 10px;
+    }
+}
+
+.horizontal-line {
+    &:after {
+        display: block;
+        height: 2px;
+        background-color: $color-blue;
+        content: "";
+        width: 70px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+}
+
+.mr-bottom {
+    margin-bottom: $mr-bottom;
+}
+
+.paragraph {
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+    padding: 15px;
+    @include breakpoint (phone) {
+        margin-bottom: 0;
+        font-size: 1em;
+    }
+}
+
+.text-blue {
+    color: $color-blue;
+}
+
+.text {
+    @include breakpoint (phone) {
+        font-size: 16px;
+    }
+}
+
+.text-indent {
+    text-indent: 2em;
+}
+
+.edu-list li {
+    list-style-type: circle;
+}
+
+.ai-box {
+    display: flex;
+    align-items: center;
+}
+
+.pulse-btn {
+    animation: pulse;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+.circle-list {
+    list-style-type: circle;
+}
+

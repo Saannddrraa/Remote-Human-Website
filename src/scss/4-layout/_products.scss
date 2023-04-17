@@ -1,0 +1,19 @@
+.products {
+    &__number {
+        border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        padding: 5px;
+        border: 2px solid $color-blue;
+        color: $color-blue;
+        text-align: center;
+        margin-right: 10px;
+        font-size: 1.2em;
+        float: left;
+    }
+}
+
+
+.list-group-item {
+    border-style: none !important;
+}

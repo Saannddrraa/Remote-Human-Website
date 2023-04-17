@@ -1,0 +1,22 @@
+.header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+
+.contact-border {
+    display: inline-block;
+    border: 2px solid $color-blue;
+    border-radius: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    transition: .6s;
+
+    &:hover {
+        background-color: $color-blue;
+    }
+}
+
+.header-about {
+    background: $color-grey-light-2;
+}

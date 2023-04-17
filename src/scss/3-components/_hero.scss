@@ -1,0 +1,28 @@
+.section-hero {
+    position: relative;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../../src/img/hero.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+
+    @include breakpoint (phone) {
+        height: 90vh;
+    }
+}
+
+.hero__text-box {
+    @include breakpoint (phone) {
+        font-size: 25px;
+    }
+}
+
+.line-1 {
+    position: absolute;
+    top: 50%;
+    @include breakpoint (phone) {
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}

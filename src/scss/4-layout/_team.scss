@@ -1,0 +1,25 @@
+.section-team {
+    background-color: #555;
+    color: #ffff;
+    font-family: 'Lato';
+    background-image: -o-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-team.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.8)), to(rgba(0, 0, 0, 0.8))), url(img/back-team.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(img/back-team.jpg);
+    background-size: cover;
+
+    &__team-info {
+        @extand paragraph;
+        color: $color-blue;
+    }
+
+    &__team-section {
+        color: $color-white;
+        line-height: 1.5em;
+    }
+
+    &__team-member {
+        @extand heading-small;
+        margin-top: 1em;
+    }
+
+}

@@ -1,0 +1,19 @@
+.link-style {
+
+    &:visited,
+    &:link {
+        color: $color-blue;
+        text-decoration: none;
+    }
+
+    &:active,
+    &:hover {
+        color: $color-grey-dark-1;
+    }
+}
+
+.section-news {
+    &__link {
+        @extend .link-style;
+    }
+}
