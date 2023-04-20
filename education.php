@@ -33,12 +33,12 @@
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <h2 class="heading-secondary horizontal-line text-center wow fadeInDown">This <b class="text-blue">AI course</b> is for you if:</h2>
-                        <ul class="edu-list">
-                            <li>You already have some knowledge of computer programming</li>
-                            <li>You want to understand how AI works</li>
-                            <li>You want to become proficient in machine learning</li>
-                            <li>You want to land next job in AI companies</li>
-                            <li>You enjoy online session</li>
+                        <ul class="list-items">
+                            <li class="list-item">You already have some knowledge of computer programming</li>
+                            <li class="list-item">You want to understand how AI works</li>
+                            <li class="list-item">You want to become proficient in machine learning</li>
+                            <li class="list-item">You want to land next job in AI companies</li>
+                            <li class="list-item">You enjoy online session</li>
                         </ul>
                     </div>
                     <div class="col-12 col-md-6 text-center">
@@ -59,33 +59,33 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="heading-secondary horizontal-line text-center wow fadeInDown">What we offer</h2>
-                        <ul class="edu-list">
-                            <li>Around 20 theoretical and practical online lessons, and mentoring for the final project.</li>
-                            <li>Top experts from the industry and science sector as main presenters.</li>
-                            <li>Guests from influential companies that will showcase industrial solutions and share work experience.</li>
-                            <li>One of the most completed online courses.</li>
+                        <ul class="list-items">
+                            <li class="list-item">Around 20 theoretical and practical online lessons, and mentoring for the final project.</li>
+                            <li class="list-item">Top experts from the industry and science sector as main presenters.</li>
+                            <li class="list-item">Guests from influential companies that will showcase industrial solutions and share work experience.</li>
+                            <li class="list-item">One of the most completed online courses.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <h2 class="heading-secondary horizontal-line text-center wow fadeInDown">Curriculum:</h2>
-                        <ul class="edu-list">
-                            <li>Python crash course</li>
-                            <li>How to use Colab over the cloud</li>
-                            <li>Linear regression</li>
-                            <li>Support vector machine and clusterization</li>
-                            <li>Neural network in details</li>
-                            <li>Video and image processing</li>
-                            <li>AI frameworks </li>
-                            <li>Reinforcement learning</li>
-                            <li>Use cases in Robotics</li>
-                            <li>Bonus:
-                                <ul class="text-indent">
-                                    <li>DeepFake</li>
-                                    <li>Face recognition</li>
-                                    <li>Trading agents</li>
-                                    <li>And more…</li>
+                        <ul class="list-items">
+                            <li class="list-item">Python crash course</li>
+                            <li class="list-item">How to use Colab over the cloud</li>
+                            <li class="list-item">Linear regression</li>
+                            <li class="list-item">Support vector machine and clusterization</li>
+                            <li class="list-item">Neural network in details</li>
+                            <li class="list-item">Video and image processing</li>
+                            <li class="list-item">AI frameworks </li>
+                            <li class="list-item">Reinforcement learning</li>
+                            <liclass="list-item">Use cases in Robotics</li>
+                            <li class="list-item">Bonus:
+                                <ul class="list-items indent">
+                                    <li class="list-item">DeepFake</li>
+                                    <li class="list-item">Face recognition</li>
+                                    <li class="list-item">Trading agents</li>
+                                    <li class="list-item">And more…</li>
                                 </ul>
                             </li>
                         </ul>
