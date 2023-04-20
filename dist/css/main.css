@@ -52,7 +52,7 @@ ul li {
     padding-bottom: 20px; } }
 
 @font-face {
-  font-family: 'tantraregular';
+  font-family: "tantraregular";
   src: url("../fonts/tantra-webfont.woff2") format("woff2"), url("../fonts/tantra-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
@@ -75,6 +75,15 @@ body {
     .heading-primary {
       font-size: 25px; } }
 
+.heading-primary--black {
+  text-transform: uppercase;
+  font-family: tantraregular;
+  font-size: 30px;
+  margin: 1.5em 0 1.5em; }
+  @media only screen and (max-width: 767px) {
+    .heading-primary--black {
+      font-size: 25px; } }
+
 .heading-secondary {
   text-transform: uppercase;
   font-family: tantraregular;
@@ -91,7 +100,8 @@ body {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-family: tantraregular;
-  font-size: 20px; }
+  font-size: 20px;
+  margin: 1.5em 0 1.5em; }
 
 .heading-small {
   text-transform: uppercase;
@@ -121,7 +131,7 @@ body {
   line-height: 1.5;
   font-size: 1.2em;
   margin-bottom: 1.5em;
-  padding: 15px; }
+  padding: 15px 0; }
   @media only screen and (max-width: 767px) {
     .paragraph {
       margin-bottom: 0;
@@ -134,10 +144,11 @@ body {
   .text {
     font-size: 16px; } }
 
-.text-indent {
+.text-indent,
+.indent li {
   text-indent: 2em; }
 
-.edu-list li {
+.list-item {
   list-style-type: circle; }
 
 .ai-box {
