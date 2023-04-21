@@ -182,8 +182,8 @@ body {
 
 .btn-shop {
   position: absolute;
-  top: 60%;
-  right: 5%; }
+  top: 70%;
+  right: 10%; }
 
 .slider {
   max-width: 1000px;
@@ -289,6 +289,14 @@ button.slick-prev, button.slick-prev:hover {
       top: 60%;
       left: 50%;
       transform: translate(-50%, -50%); } }
+
+.hero-paragraph {
+  position: absolute;
+  top: 55%;
+  font-size: 20px; }
+  @media only screen and (max-width: 767px) {
+    .hero-paragraph {
+      display: none; } }
 
 .link-style:visited, .section-news__link:visited, .link-style:link, .section-news__link:link {
   color: #66a8c0;

@@ -19,7 +19,7 @@
     <main>
     <section class="section-padding">
             <div class="container">
-            <h1 class="heading-primary--black horizontal-line text-center">Vortex educational platform</h1>
+            <h1 class="heading-primary--black horizontal-line text-center">Our products</h1>
                 <div class="row text-left">
                     <div class="col-12">
                         <h2 class="heading-secondary horizontal-line text-center">Code Alkonost - Survival Horror - Slavic Mythology</h2> 

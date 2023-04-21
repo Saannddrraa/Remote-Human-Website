@@ -24,24 +24,26 @@
                         <h2 class="heading-secondary horizontal-line text-center">What's RH?</h2>
                         <p class="paragraph">
                             The company name <b class="text-blue">RH</b> stand for <b class="text-blue">Remote Human</b>.
-                            A name was given in july 2019. <strong>Remote Human is a company that aims to integrate VR (virtual reality) and VI (artificial intelligence) into robots.</strong>
-                            We make software and robots for a variety of applications, from education to manufacturing and logistics.
+                            A name was given in july 2019.
                         </p>
                         <p class="paragraph">
-                            Our products use VR robot avatar technology, which is a protocol for communication between VR glasses and robots.
-                            One of the products that uses VR robot technology is the educational robot vehicle <b class="text-blue">Smart Bobby</b>.
-                            We develop this product for children and young people and can be controlled using the VR mobile app and gamepad.
+                        We are proud to be a part of an industry that is constantly evolving and changing. Our
+                        mission is to create the most immersive and captivating gaming experiences for players
+                        all around the world. We are proud to be at the forefront of the industry, pushing the
+                        boundaries of what is possible in gaming.
                         </p>
-                    </div>
-                </div>
-                <div class="row text-center">
-                    <div class="col-12 col-md-6">
-                        <img class="img-fluid about-rh__img" src="src/img/ar-glasses.svg" alt="RH team">
-                    </div>
-                    <div class="video-mr col-12 col-md-6">
-                        <div class="embed-responsive embed-responsive-16by9">
-                            <iframe class="embed-responsive-item h-100" src="https://www.youtube.com/embed/-z9xQWIVh0o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen controls muted></iframe>
-                        </div>
+                        <p class="paragraph">
+                        Our team of experts is dedicated to creating technologies that will enable players to fully
+                        immerse themselves in the game, connecting with others in ways that were previously
+                        impossible. From AI-driven game design to cutting-edge graphics and immersive
+                        soundscapes, we are committed to creating truly unforgettable games. We believe that
+                        the Metaverse and AI are the future of gaming, and we are excited to be a part of it.
+                        </p>
+                        <p class="paragraph">
+                        We look forward to working with you to create the most innovative and exciting gaming
+                        experiences possible. Together, we can build the future of gaming - one game at a time.
+                        Feel free to contact us: contact@remote-human.com
+                        </p>
                     </div>
                 </div>
             </div>
