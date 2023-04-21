@@ -1,5 +1,5 @@
 .line-1 {
-  width: 16.5em;
+  width: 15.5em;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 90px;
   text-align: center;
@@ -11,13 +11,13 @@
       display: none; } }
 
 .anim-typewriter {
-  animation: typewriter 3s steps(24) 1s 1 normal both, blinkTextCursor 500ms steps(24) infinite normal; }
+  animation: typewriter 3s steps(22) 1s 1 normal both, blinkTextCursor 500ms steps(22) infinite normal; }
 
 @keyframes typewriter {
   from {
     width: 0; }
   to {
-    width: 16.5em; } }
+    width: 15.5em; } }
 
 @keyframes blinkTextCursor {
   from {
@@ -373,7 +373,7 @@ button.slick-prev, button.slick-prev:hover {
   color: #fff;
   text-decoration: none;
   font-family: Tantra;
-  margin: 10px;
+  margin: 5px;
   font-size: 14px;
   transition: 0.4s; }
   .nav-link:hover {
@@ -398,7 +398,7 @@ button.slick-prev, button.slick-prev:hover {
   border-radius: 10px;
   padding-right: 10px;
   padding-left: 10px;
-  transition: .6s; }
+  transition: 0.6s; }
   .contact-border:hover {
     background-color: #66a8c0; }
     .contact-border:hover::after {
@@ -425,7 +425,7 @@ button.slick-prev, button.slick-prev:hover {
     text-align: center; } }
 
 .navbar-toggler {
-  padding: .25rem 0em; }
+  padding: 0.25rem 0em; }
 
 .products__number {
   border-radius: 50%;

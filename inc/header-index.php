@@ -26,6 +26,9 @@
                             <a class="nav-link" href="entertainment.php">Entertainment</a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="smart-bobby.php">Smart Bobby</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="news.php">News</a>
                         </li>
                         <li class="nav-item">

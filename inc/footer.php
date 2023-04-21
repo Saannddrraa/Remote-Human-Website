@@ -38,6 +38,7 @@
                         <li class="links-text"><a class="footer-contact" href="industry.php">Industry</a></li>
                         <li class="links-text"><a class="footer-contact" href="education.php">Education</a></li>
                         <li class="links-text"><a class="footer-contact" href="entertainment.php">Entertainment</a></li>
+                        <li class="links-text"><a class="footer-contact" href="smart-bobby.php">Smart Bobby</a></li>
                         <li class="links-text"><a class="footer-contact" href="news.php">News</a></li>
                         <li class="links-text"><a class="footer-contact" href="shop.php">Shop</a></li>
                     </ul>

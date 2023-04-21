@@ -14,30 +14,16 @@
     <link rel="stylesheet" href="dist/css/slick/slick-theme.css">
     <link rel="stylesheet" href="dist/css/animate.css">
     <link rel="stylesheet" type="text/css" href="dist/css/main.css">
-    <title>Remote Human</title>
+    <title>Smart Bobby</title>
 </head>
 
 <body>
-<?php include 'inc/header-index.php';?>
+<?php include 'inc/header-second.php';?>
     <main>
-        <section class="section-hero">
-            <div class="container">
-                <div class="hero__text-box">
-                    <div class="row justify-content-end">
-                        <h1 class="heading-primary line-1 anim-typewriter">
-                            Get ready for <b class="text-blue">gaming 4.0 </b>
-                        </h1>
-                        <div class="text-center">
-                            <a class="section-news__btn pulse-btn wow fadeInDown btn-shop" href="shop.html">RH SHOP</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="about section-padding">
+    <section class="about section-padding">
             <div class="container">
                 <div class="row justify-content-center">
-                    <h2 class="heading-secondary text-center wow fadeInDown">
+                    <h2 class="heading-secondary text-center">
                         Remote Human presents <br><b class="text-blue">Smart Bobby Educational AI programmable robot</b>
                     </h2>
                     <div class="col-md-6 text-center">
