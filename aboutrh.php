@@ -42,7 +42,7 @@
                         <p class="paragraph">
                         We look forward to working with you to create the most innovative and exciting gaming
                         experiences possible. Together, we can build the future of gaming - one game at a time.
-                        Feel free to contact us: contact@remote-human.com
+                        Feel free to contact us: <b class="text-blue">contact@remote-human.com</b>
                         </p>
                     </div>
                 </div>

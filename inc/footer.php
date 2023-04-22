@@ -9,11 +9,11 @@
                     <ul class="footer__contact-list">
                         <li class="footer__item">
                             <img class="footer__icon" src="src/img/call.svg" alt="Phone">
-                            <a href="javascript:;" class="footer-link">+381638981735</a>
+                            <a  href="tel:+381638981735" class="footer-link">+381638981735</a>
                         </li>
                         <li class="footer__item">
                             <img class="footer__icon" src="src/img/envelope.svg" alt="Email">
-                            <a href="javascript:;" class="footer-link">contact@remote-human.com</a>
+                            <a href="mailto:contact@remote-human.com" class="footer-link">contact@remote-human.com</a>
                         </li>
                     </ul>
                 </div>
