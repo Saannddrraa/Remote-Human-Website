@@ -1,51 +1,49 @@
 @mixin clearfix {
-    &::after {
-        content: "";
-        display: table;
-        clear: both;
-    }
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 }
 
 @mixin heading-styles {
-    text-transform: uppercase;
-    font-family: tantraregular;
+  text-transform: uppercase;
+  font-family: tantraregular;
 }
 
-@mixin breakpoint ($value) {
-    @if $value == 'phone' { // mobile
-    @media only screen and (max-width : 767px) {
-    @content;
+@mixin heading-margin {
+  margin: 1.5em 0 $mr-bottom;
+}
+
+@mixin breakpoint($value) {
+  @if $value == "phone" {
+    // mobile
+    @media only screen and (max-width: 767px) {
+      @content;
     }
-    }
-    
-    @else if $value == 'tablet' { // tablet
+  } @else if $value == "tablet" {
+    // tablet
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    @content;
+      @content;
     }
-    }
-    
-    @else if $value == 'touch' { // mobile and tablet
+  } @else if $value == "touch" {
+    // mobile and tablet
     @media only screen and (max-width: 1024px) {
-    @content;
+      @content;
     }
-    }
-    
-    @else if $value == 'desktop' { // desktop
+  } @else if $value == "desktop" {
+    // desktop
     @media only screen and (min-width: 1025px) {
-    @content
+      @content;
     }
-    }
-    
-    @else if $value == 'desktop-tablet' { // desktop and tablet
+  } @else if $value == "desktop-tablet" {
+    // desktop and tablet
     @media only screen and (min-width: 768px) {
-    @content
+      @content;
     }
-    }
-    
-    @else {
+  } @else {
     @media only screen and (max-width: $value) {
-    @content;
+      @content;
     }
-    }
-    }
-    
+  }
+}
