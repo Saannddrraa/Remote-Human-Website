@@ -24,10 +24,10 @@
             <div class="container">
                 <div class="hero__text-box">
                     <div class="row justify-content-end">
-                        <h1 class="heading-primary line-1 anim-typewriter">
+                        <h1 class="heading-primary position-center">
                             Get ready for <b class="text-blue">gaming 4.0</b>
                         </h1>
-                        <p class="hero-paragraph text-blue">Building futuristic gaming technologies pushing the industry forward.</p>
+                        <p class="hero-paragraph text-blue typewriter-anim anim-typewriter">Building futuristic gaming technologies pushing the industry forward.</p>
                         <div class="text-center">
                             <a class="section-news__btn pulse-btn wow fadeInDown btn-shop" href="shop.html">RH SHOP</a>
                         </div>
@@ -62,11 +62,11 @@
         </section>
         <section class="video section-padding">
             <div class="container">
-                <h2 class="heading-secondary text-center wow fadeInLeft">Watch Code Alkonost<br><b class="text-blue">Demo</b> and <b class="text-blue">Showcase presentation</b></h2>
+                <h2 class="heading-secondary text-center wow fadeInLeft">Watch Code Alkonost<br><b class="text-blue">Showcase presentations</b></h2>
                 <div class="row">
                     <div class="mr-bottom col-md-6">
                         <div class="embed-responsive embed-responsive-16by9">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/DRbWV_zjIWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/j69NryJJ1Tg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="mr-bottom col-md-6">
@@ -81,7 +81,7 @@
             <div class="container">
                 <div class="row justify-content-center">
                     <h2 class="heading-secondary text-center wow fadeInDown">
-                        <b class="text-blue"><a class="link-style" href="https://github.com/Aca1990/VoRtex-School">Vortex</a></b>
+                        <b class="text-blue"><a class="link-style">Vortex</a></b>
                     </h2>
                     <div class="col-md-12 text-center">
                         <img src="src/img/vortex.jpg" class="img-fluid text-center mr-bottom" alt="Vortex">
@@ -91,8 +91,8 @@
                     <ul class="list-items">
                             <li class="list-item">VoRtex is an acronym that stands for "Virtual Reality Technology for Education and
                             eXperience".</li>
-                            <li class="list-item">This platform is specifically designed <u>to support education and exploration within
-                            the Metaverse.</u></li>
+                            <li class="list-item">This platform is specifically designed to support education and exploration within
+                            the Metaverse.</li>
                             <li class="list-item">The platform offers a repository of virtual objects that can be used to create
                             immersive educational experiences in the Metaverse. Additionally, the platform
                             provides a toolkit for educators to create and customize virtual environments to

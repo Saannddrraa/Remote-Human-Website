@@ -1,5 +1,5 @@
-.line-1 {
-  width: 15.5em;
+.typewriter-anim {
+  width: 30.5em;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 90px;
   text-align: center;
@@ -7,17 +7,17 @@
   overflow: hidden;
   transform: translateY(-30%); }
   @media only screen and (max-width: 767px) {
-    .line-1 {
+    .typewriter-anim {
       display: none; } }
 
 .anim-typewriter {
-  animation: typewriter 3s steps(22) 1s 1 normal both, blinkTextCursor 500ms steps(22) infinite normal; }
+  animation: typewriter 2s steps(22) 1s 1 normal both, blinkTextCursor 500ms steps(22) infinite normal; }
 
 @keyframes typewriter {
   from {
     width: 0; }
   to {
-    width: 15.5em; } }
+    width: 30.5em; } }
 
 @keyframes blinkTextCursor {
   from {
@@ -281,19 +281,20 @@ button.slick-prev, button.slick-prev:hover {
   .hero__text-box {
     font-size: 25px; } }
 
-.line-1 {
+.position-center {
   position: absolute;
   top: 50%; }
   @media only screen and (max-width: 767px) {
-    .line-1 {
-      top: 60%;
+    .position-center {
+      top: 50%;
       left: 50%;
       transform: translate(-50%, -50%); } }
 
 .hero-paragraph {
   position: absolute;
-  top: 55%;
-  font-size: 20px; }
+  top: 60%;
+  font-size: 18px;
+  color: #fff; }
   @media only screen and (max-width: 767px) {
     .hero-paragraph {
       display: none; } }

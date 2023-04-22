@@ -1,5 +1,5 @@
-.line-1 {
-  width: 15.5em;
+.typewriter-anim {
+  width: 30.5em;
   border-right: 2px solid rgba(255, 255, 255, 0.75);
   font-size: 90px;
   text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .anim-typewriter {
-  animation: typewriter 3s steps(22) 1s 1 normal both,
+  animation: typewriter 2s steps(22) 1s 1 normal both,
     blinkTextCursor 500ms steps(22) infinite normal;
 }
 @keyframes typewriter {
@@ -20,7 +20,7 @@
     width: 0;
   }
   to {
-    width: 15.5em;
+    width: 30.5em;
   }
 }
 @keyframes blinkTextCursor {
