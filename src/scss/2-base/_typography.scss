@@ -22,7 +22,7 @@ body {
   word-spacing: 3px;
 
   @include breakpoint(phone) {
-    font-size: 25px;
+    display: none;
   }
 }
 

@@ -1,0 +1,108 @@
+.shop-header {
+  height: 80px;
+  background-color: $color-blue;
+  border-radius: 3px;
+}
+
+.cart {
+  height: 30px;
+  width: 60px;
+  border-radius: 22px;
+  background-color: $color-white;
+  color: $color-blue;
+  padding: 7px 10px;
+}
+
+.shop-sidebar {
+  margin: $mr-bottom;
+}
+
+#root {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.sidebar-cart {
+  border-radius: 5px;
+  background-color: $color-grey-light-2;
+  padding: 15px;
+  color: $color-white;
+  @include breakpoint(phone) {
+    margin-top: 15px;
+  }
+}
+
+.sidebar-header {
+  height: 40px;
+  border-radius: 3px;
+  background-color: $color-blue;
+  padding: 15px;
+  color: $color-white;
+  margin-bottom: $mr-bottom;
+}
+
+.sidebar-footer {
+  border-top: 1px solid $color-grey-light-1;
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.box {
+  border: 1px solid $color-blue;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.img-box {
+  width: 100%;
+  height: 180px;
+}
+
+.images {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.bottom {
+  margin-top: 20px;
+  width: 100%;
+  height: 110px;
+}
+
+.bottom button {
+  width: 100%;
+  position: relative;
+  border: none;
+  border-radius: 3px;
+  background-color: $color-blue;
+  padding: 7px 25px;
+  color: $color-white;
+}
+
+.cart-item{
+  height: 70px;
+  padding: 10px;
+  border-bottom: 1px solid $color-blue;
+  border-radius: 3px;
+  margin: 10px 10px;
+  background-color: $color-white;
+  color: $color-blue;
+}
+.row-img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  border: 1px solid $color-blue;
+}
+
+.rowimg{
+  max-width: 43px;
+  max-height: 43px;
+  border-radius: 50%;
+}
+.fa-trash:hover{
+  color: $color-grey-dark-2;
+}

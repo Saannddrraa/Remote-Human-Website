@@ -21,6 +21,10 @@
   margin-bottom: $mr-bottom;
 }
 
+p {
+  margin-bottom: 0 !important;
+}
+
 .paragraph {
   font-family: Arial;
   line-height: 1.5;
